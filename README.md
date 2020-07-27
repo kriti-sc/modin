@@ -29,9 +29,9 @@ If you don't have [Ray](https://github.com/ray-project/ray) or
 of the targets:
 
 ```bash
-pip install modin[ray] # Install Modin dependencies and Ray to run on Ray
-pip install modin[dask] # Install Modin dependencies and Dask to run on Dask
-pip install modin[all] # Install all of the above
+pip install 'modin[ray]' # Install Modin dependencies and Ray to run on Ray
+pip install 'modin[dask]' # Install Modin dependencies and Dask to run on Dask
+pip install 'modin[all]' # Install all of the above
 ```
 Modin will automatically detect which engine you have installed and use that for
 scheduling computation!
